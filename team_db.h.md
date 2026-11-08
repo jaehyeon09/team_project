@@ -8,6 +8,7 @@ int db_open(sqlite3** db);
 void db_close(sqlite3* db);
 void insert_initial_members(sqlite3* db);
 
+// 팀원 관리
 void show_members(sqlite3* db);
 void search_member(sqlite3* db);
 void update_member(sqlite3* db);
